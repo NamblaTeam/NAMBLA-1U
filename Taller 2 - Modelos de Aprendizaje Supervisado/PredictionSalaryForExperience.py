@@ -46,9 +46,9 @@ rmse = np.sqrt(mse)
 r2 = r2_score(y_test, y_pred)
 
 print(f"\n🔹 Evaluación General del Modelo:")
-print(f"MSE: {mse:.2f}")
-print(f"RMSE: {rmse:.2f}")
-print(f"R²: {r2:.2f}")
+print(f"Error Cuadrático Medio (MSE): {mse:.2f}")
+print(f"Raíz del Error Cuadrático Medio (RMSE): {rmse:.2f}")
+print(f"Coeficiente de Determinación (R²): {r2:.2f}")
 print("=" * 50)
 
 # 10. Predicciones según los años de experiencia ingresados por el usuario
